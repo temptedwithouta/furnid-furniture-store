@@ -15,7 +15,31 @@ It’s designed to be clean, modern, and user-friendly, allowing visitors to exp
 ## 🛠️ Built With
 - **HTML5** – Semantic and accessible structure.
 - **CSS3** – Elegant and responsive styling.
-- **JavaScript (ES6)** – Light interactivity.
+
+## 📁 Project Structure
+```text
+Furnid/
+├── index.html
+├── shop.html
+├── register.html
+├── css/
+│   ├── base.css
+│   ├── home.css
+│   ├── shop.css
+│   └── register.css
+└── assets/
+	├── home/
+	├── shop/
+	├── form/
+	├── footer/
+	└── images/
+		└── preview/
+```
+
+Shared styles are defined in `css/base.css`; page-specific styles stay in their corresponding stylesheet. JavaScript is not currently used by the site.
+
+## ▶️ Run Locally
+Open `index.html` in a browser. No build step or dependency installation is required.
 
 ---
 
