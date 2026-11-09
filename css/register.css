@@ -1,0 +1,186 @@
+/* Hero */
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  height: 18vh;
+  width: 100%;
+  padding: 20px 80px;
+  background-color: #244d4d;
+}
+
+#hero h2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* width: 39.4%; */
+  font-size: 26px;
+  color: #fff;
+}
+
+#hero h2:nth-child(2) {
+  font-weight: 600;
+  justify-content: flex-end;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#hero h2:nth-child(2) a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#hero h2:nth-child(2) a:nth-child(1) {
+  margin-right: 6px;
+}
+
+#hero h2 span {
+  color: rgb(243, 181, 25);
+  margin-left: 6px;
+}
+
+/* Akhir hero */
+
+/* Form */
+
+#product1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f6fbf6;
+  /* border-radius: 24px; */
+  height: 100vh;
+  margin: 40px 80px 40px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .slider-feature-container {
+  background: #fff;
+  width: 50%;
+  overflow: hidden;
+  /* border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px; */
+  height: 100%;
+}
+
+#product1 .slider-feature-container .slide-feature {
+  width: 100%;
+  height: 100%;
+}
+
+#product1 .slider-feature-container .slide-feature img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#product1 .form-subscribe {
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+#product1 .form-subscribe form .heading h2 {
+  padding-bottom: 30px;
+}
+
+#product1 .form-subscribe form .textbox,
+#product1 .form-subscribe form .check {
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#product1 .form-subscribe form .textbox h4 {
+  margin-bottom: 8px;
+}
+
+#product1 .form-subscribe form .textbox .textbox-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 46px;
+}
+
+#product1 .form-subscribe form .textbox .textbox-inner #birthday {
+  cursor: pointer;
+}
+
+#product1 .form-subscribe form .check .check-inner {
+  position: relative;
+}
+
+#product1 .form-subscribe form .check .check-inner #terms {
+  cursor: pointer;
+}
+
+#product1 .form-subscribe form .textbox .textbox-inner i {
+  position: absolute;
+  font-size: 18px;
+  left: 16px;
+  color: #244d4d;
+  z-index: 999;
+}
+
+#product1 .form-subscribe form .textbox .textbox-inner input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* border-radius: 8px; */
+  outline: none;
+  border: 1px solid #244d4d;
+  padding: 0 40px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+}
+
+#product1 .form-subscribe form .btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#product1 .form-subscribe form .button {
+  background-color: #244d4d;
+  width: 100%;
+  height: 50px;
+  font-weight: 700;
+  /* border-radius: 4px; */
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  transition: ease-out 0.3s;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+}
+
+#product1 .form-subscribe form .button:hover {
+  background-color: #167d7f;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .form-subscribe form .login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#product1 .form-subscribe form .login span {
+  color: rgb(243, 181, 25);
+}
+
+/* Akhir form */
+

@@ -1,25 +1,77 @@
-# 🪑 Furnid - Furniture Store Website
+# Furnid - Furniture Store Website
 
-**Furnid** is a simple and stylish static website for selling high-quality furniture.  
-It’s designed to be clean, modern, and user-friendly, allowing visitors to explore products easily and register for updates.
+## Overview
 
----
+Furnid is a static, multi-page furniture catalog website. It showcases furniture collections and a registration form through an HTML and CSS interface.
 
-## 🌟 Features
-- **Home** – Welcoming landing page with featured furniture.
-- **Shop** – Browse our curated collection of tables, chairs, sofas, and more.
-- **Register** – Allows visitors to register their details to stay updated with the latest products, offers, and store news.
+## Features
 
----
+- **Home:** Featured furniture, new products, brand information, and promotional banners.
+- **Shop:** Furniture packages, product categories, and a product catalog.
+- **Register:** A form layout for visitor details and terms acceptance.
 
-## 🛠️ Built With
-- **HTML5** – Semantic and accessible structure.
-- **CSS3** – Elegant and responsive styling.
-- **JavaScript (ES6)** – Light interactivity.
+## Tech Stack
 
----
+- HTML5
+- CSS3
+- Font Awesome icons loaded from an external CDN
 
-## 📸 Preview
-![Home Page](assets/images/preview/home.png)
-![Shop Page](assets/images/preview/shop.png)
-![Register Page](assets/images/preview/register.png)
+The project has no local JavaScript, backend, dependencies, or build step.
+
+## Project Structure
+
+```text
+Furnid/
+├── index.html
+├── shop.html
+├── register.html
+├── logo.svg
+├── css/
+│   ├── base.css
+│   ├── home.css
+│   ├── shop.css
+│   └── register.css
+├── assets/
+│   ├── footer/payment/
+│   ├── form/album/
+│   ├── home/
+│   │   ├── banner/
+│   │   ├── new-products/
+│   │   ├── photo-furniture/
+│   │   └── products/
+│   ├── images/preview/
+│   └── shop/
+│       ├── icon/
+│       ├── photo-furniture/
+│       └── products/
+└── docs/superpowers/
+    ├── plans/
+    └── specs/
+```
+
+Shared styles are in `css/base.css`; each page's additional styles are in its corresponding stylesheet. Images and other static media are organized under `assets/`.
+
+## Getting Started
+
+1. Clone or download this repository.
+2. Open `index.html` directly in a browser.
+
+No installation or build command is required. A local static server, such as the VS Code Live Server extension, can also be used. An internet connection is needed to load Font Awesome icons from its CDN.
+
+## Limitations
+
+This project is a frontend demonstration, not a complete ecommerce service. Product search, cart and favorite controls are not connected to application logic. The registration form has no backend and does not store submissions.
+
+## Preview
+
+### Home
+
+![Furnid home page preview](assets/images/preview/home.png)
+
+### Shop
+
+![Furnid shop page preview](assets/images/preview/shop.png)
+
+### Register
+
+![Furnid registration page preview](assets/images/preview/register.png)
